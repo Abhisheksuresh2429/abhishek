@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        .carousel-inner img{
+            width:100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form class="was-validated">
+        <div class="form-group" >
+            Name : &nbsp;
+            <input type="text" class="form-control" id="a" placeholder="enter name" required>
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">please fill the name</div>
+        </div>
+        <div class="form-group">
+            email : &nbsp;
+            <input type="email" class="form-control" id="b" placeholder="enter email" required>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-group">
+            Password : &nbsp;
+            <input type="password" class="form-control" id="c" placeholder="enter name" required>
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">please fill the name</div>
+        </div>
+        <div class="form-group">
+            <input type="checkbox" class="form-check-input" value="remember" required> Remember me
+            <div class="valid-feedback">all set</div>
+            <div class="invalid-feedback">please tick</div>
+        </div><br>
+        <input type="submit" class="btn btn-danger" value="submit">
+        <input type="reset" class="btn btn-warning" value="reset">
+        <br><br><br>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="switch" name="example">
+            <label class="custom-control-label" for="switch">Toggle me</label>
+        </div>
+        <select class="custom-control custom-select">
+            <option selected></option>
+            <option value="car">cars</option>
+            <option value="car">car</option>
+            <option value="car">cars</option>
+        </select>
+        <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="new" value="g"><label class="custom-control-label" for="new">Custom radio</label><br>
+        </div>
+      range
+        <input type="range" class="custom-range" id="customRange" name="points1" value="50%" placeholder="50%">
+        <input type="range"   name="points1" value="50%" placeholder="feer">
+        <div class="custom-control custom-file">
+        <input type="file" class="custom-file-input" name="ef" id="hi">
+        <label class="custom-file-label" for="ef">choose file</label>
+        </div>
+    </form>
+    </div>
+
+    
+</body>
+</html>
